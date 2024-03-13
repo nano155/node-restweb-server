@@ -6,7 +6,7 @@
 
       {
 
-        "src": "src/presentation/routes.ts",
+        "src": "./src/app.ts",
 
         "use": "@vercel/node"
 
