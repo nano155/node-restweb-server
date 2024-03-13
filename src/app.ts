@@ -18,7 +18,6 @@ function main() {
     routes: AppRoutes.routes,
   });
 
- 
-
+  
   server.start();
 }
