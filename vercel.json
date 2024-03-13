@@ -1,5 +1,23 @@
 {
-    "rewrites": [
-        {"source": "/(.*)", "destination": "/"}
+
+    "version": 2,
+
+    "builds": [
+
+      {
+
+        "src": "src/presentation/routes.ts",
+
+        "use": "@vercel/node"
+
+      }
+
+    ],
+
+    "routes": [
+
+      { "src": "/api/todos/(.*)", "dest": "src/presentation/todos/routes.ts" }
+
     ]
-}
+
+  }
